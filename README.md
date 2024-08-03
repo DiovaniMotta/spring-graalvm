@@ -56,11 +56,11 @@ Este guia descreve como configurar o ambiente de desenvolvimento para compilar a
 1. Abra o menu Iniciar, procure por "Variáveis de Ambiente" e selecione "Editar as variáveis de ambiente do sistema".
 2. Na janela "Propriedades do Sistema", clique no botão "Variáveis de Ambiente...".
 3. Em "Variáveis de sistema", clique em "Novo..." para adicionar uma nova variável.
-    - Nome da variável: `GRAALVM_HOME`
+    - Nome da variável: `JAVA_HOME`
     - Valor da variável: `C:\graalvm\graalvm-ce-java11-XX.X.X` (substitua pelo caminho onde você extraiu o GraalVM)
 4. Encontre a variável `Path` em "Variáveis de sistema" e clique em "Editar...".
 5. Adicione o seguinte caminho ao final da lista de variáveis de `Path`:
-    - `%GRAALVM_HOME%\bin`
+    - `%JAVA_HOME%\bin`
 
 ### 3. Verificar a Instalação
 
