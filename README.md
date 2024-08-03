@@ -33,7 +33,8 @@ mvn clean -Pnative native:compile
 * Spring Boot
 * GraalVM
 
-# Como configurar o ambiente de desenvolvimento para executar compilações nativas no Windows 11
+
+## Como configurar o ambiente de desenvolvimento para executar compilações nativas no Windows 11
 
 Este guia descreve como configurar o ambiente de desenvolvimento para compilar aplicações Java utilizando GraalVM no Windows 11.
 
