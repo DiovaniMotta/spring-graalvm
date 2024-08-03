@@ -34,7 +34,8 @@ mvn clean -Pnative native:compile
 * GraalVM
 
 
-## Como configurar o ambiente de desenvolvimento para executar compilações nativas no Windows 11
+
+## Configurar ambiente de desenvolvimento
 
 Este guia descreve como configurar o ambiente de desenvolvimento para compilar aplicações Java utilizando GraalVM no Windows 11.
 
@@ -104,6 +105,5 @@ Se você já possui o Visual Studio 2022 instalado, será necessário garantir q
 Agora você pode começar a usar o GraalVM Native Image.
 
 Para maiores detalhes, acesse a [documentação oficial](https://www.graalvm.org/22.3/docs/getting-started/windows/).
-
 
 Baixe o projeto e teste você mesmo na prática.
