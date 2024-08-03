@@ -14,7 +14,11 @@
   <name>spring-graalvm</name>
   <description>Exemplo de uso do Spring Boot com a GraalVM</description>
   <properties>
-    <java.version>17</java.version>
+    <java.version>11</java.version>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.compilerVersion>17</maven.compiler.compilerVersion>
+    <maven.compiler.release>17</maven.compiler.release>
   </properties>
   <dependencies>
     <dependency>
@@ -44,6 +48,20 @@
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <classpathPrefix>libs/</classpathPrefix>
+              <mainClass>com.diovanimotta.MainApplication</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
       </plugin>
     </plugins>
   </build>
