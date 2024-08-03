@@ -1,6 +1,6 @@
 
 <h3 align="center">
-  GraalVM e Spring Boot na prática!Exemplo de aplicação usando compilação nativa com a nova VM Cloud-Native
+  Exemplo de aplicação usando compilação nativa com a nova VM Cloud-Native da Oracle, a GraalVM
 </h3>
 
 <p align="center">
